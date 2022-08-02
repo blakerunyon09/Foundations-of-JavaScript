@@ -1,3 +1,4 @@
+// Write a function that counts the frequency of a key in a string.
 const beanCount = (string, key) => {
   count = 0;
   for(i = 0; i < string.length; i++){

@@ -1,3 +1,4 @@
+// Recursively compute a power
 function pow(base, exponent) {
   if (exponent == 0) {
     return 1;
@@ -6,4 +7,6 @@ function pow(base, exponent) {
   }
 }
 
-console.log(pow(3, 3));
+console.log(
+  pow(3, 3)
+  );

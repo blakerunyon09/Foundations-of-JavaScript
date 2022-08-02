@@ -1,3 +1,4 @@
+// Recursively return isEven bool
 const isEven = (num) => {
   const reduceToBin = (int) => {
     if(int > 1) {
@@ -11,4 +12,7 @@ const isEven = (num) => {
   return reduceToBin(num) == 0
 }
 
-console.log(isEven(-5), isEven(4))
+console.log(
+  isEven(-5), 
+  isEven(4)
+  )

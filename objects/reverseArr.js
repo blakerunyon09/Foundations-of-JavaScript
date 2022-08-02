@@ -1,3 +1,4 @@
+// Return new reversed array.
 const revArr = (arr) => {
   newArr = [];
 
@@ -9,6 +10,7 @@ const revArr = (arr) => {
   return newArr;
 }
 
+// Reverse and mutate array in place
 const revArrInPlace = (arr) => {
   let temp;
   for(let i = 0; i < arr.length / 2; i++){ 
@@ -20,8 +22,10 @@ const revArrInPlace = (arr) => {
   return arr
 }
 
-const ar1 = [1, 2, 3, 4, 5];
-revArrInPlace(ar1);
+const arr1 = [1, 2, 3, 4, 5];
+revArrInPlace(arr1);
 
-console.log(revArr([1, 2, 3, 4, 5]))
-console.log(ar1)
+console.log(
+  revArr([1, 2, 3, 4, 5]),
+  arr1
+  )
