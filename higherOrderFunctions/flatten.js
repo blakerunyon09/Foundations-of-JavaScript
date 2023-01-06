@@ -1,3 +1,4 @@
+const { assert } = require("../test/assert.js");
 const arr2D = [[1,2],[3,4],[5,6]];
 
 const flattenArr = (arrToFlatten) => {
@@ -8,5 +9,5 @@ const flattenArr = (arrToFlatten) => {
 
 const flatArr = flattenArr(arr2D);
 
-expect("Flattens an arr", flatArr[0] === 1);
-expect("Flattens an arr", flatArr[2] === 3);
+assert("Flattens an arr", flatArr[0] === 1);
+assert("Flattens an arr", flatArr[2] === 3);
