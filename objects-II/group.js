@@ -1,5 +1,4 @@
 const { assert } = require("../test/assert.js");
-
 class Group {
   constructor() {
     this.list = [];
