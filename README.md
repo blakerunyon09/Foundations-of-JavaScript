@@ -1,7 +1,5 @@
 Hello... 
 
-These are my solutions for Eloquent JS.
+This is a collection of JavaScript learnings I've worked through.
 
-I've worked through this book once before, I figured on my second pass I would post my solutions. 
-
-If you haven't read this book, I would highly recommend it. It's really a great collection of JS know how.
+Eloquent JavaScript, GreatFrontend.com, etc.
